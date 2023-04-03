@@ -1,0 +1,226 @@
+{
+	"BUILD_DIR" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/argos3plugin_simulator_qtopengl_autogen",
+	"CMAKE_BINARY_DIR" : "/home/snn/IRIDIA/argos3/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/snn/IRIDIA/argos3/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_application.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_application.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_box.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_box.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_camera.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_camera.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_cylinder.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_cylinder.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_light.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_light.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_log_stream.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_log_stream.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_editor.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_editor.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_find_dialog.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_find_dialog.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_main_window.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_main_window.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_statetree_item.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_statetree_item.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_statetree_model.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_statetree_model.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_syntax_highlighter.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_lua_syntax_highlighter.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_main_window.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_main_window.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_obj_model.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_obj_model.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_render.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_render.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_user_functions.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_user_functions.cpp"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_widget.h",
+			"Mu",
+			"EWIEGA46WW/moc_qtopengl_widget.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/argos3plugin_simulator_qtopengl_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/argos3plugin_simulator_qtopengl_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ARGOS_simulator_BUILD",
+		"GL_SILENCE_DEPRECATION",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"argos3plugin_simulator_qtopengl_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl",
+		"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl",
+		"/home/snn/IRIDIA/argos3/src",
+		"/home/snn/IRIDIA/argos3/build",
+		"/usr/include/lua5.3",
+		"/usr/include/Headers",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/argos3plugin_simulator_qtopengl_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/CMakeFiles/argos3plugin_simulator_qtopengl_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/snn/IRIDIA/argos3/build/plugins/simulator/visualizations/qt-opengl/CMakeFiles/argos3plugin_simulator_qtopengl_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_application.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_box.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_camera.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_cylinder.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_light.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_editor.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_find_dialog.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_main_window.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_statetree_item.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_statetree_model.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_lua_syntax_highlighter.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_main_window.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_obj_model.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_render.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_user_functions.cpp",
+			"Mu"
+		],
+		[
+			"/home/snn/IRIDIA/argos3/src/plugins/simulator/visualizations/qt-opengl/qtopengl_widget.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}
