@@ -7,6 +7,8 @@
 
 #ifndef POINTMASS3D_DRONE_MODEL_H
 #define POINTMASS3D_DRONE_MODEL_H
+//#define POSITION_CONTROL_ENABLED
+#define POINTMASS3D_DRONE_DISABLE_NOISE
 
 namespace argos {
    class CPointMass3DEngine;
@@ -63,14 +65,16 @@ namespace argos {
 
       /* reference to the flight system entity */ 
       CDroneFlightSystemEntity& m_cFlightSystemEntity;
-      /* position and yaw input from the controller */ 
+      /* position, velocity and yaw input from the controller */ 
       Real m_fInputYawAngle;
       CVector3 m_cInputPosition;
+      CVector3 m_cInputVelocity;
       /* home position and yaw angle */
       CVector3 m_cHomePosition;
       Real m_fHomeYawAngle;
       /* local copy of the drone's position */
       CVector3 m_cPosition;
+      CVector3 m_cPositionError;
       /* local copy of the drone's orientation */
       CVector3 m_cOrientation;
       /* velocity of the drone */
@@ -80,14 +84,16 @@ namespace argos {
       CVector3 m_cAngularVelocity;
       CVector3 m_cAngularVelocityPrev;
       /* acceleration of the drone */
+      CVector3 m_cAccelerometer;
       CVector3 m_cAccelerationPrev;
       /* angular acceleration of the drone */
       CVector3 m_cAngularAccelerationPrev;
       /* variables for PID controller */
       CVector3 m_cOrientationTargetPrev;
       CVector3 m_cAngularVelocityCumulativeError;
-      Real m_fAltitudeCumulativeError;
-      Real m_fTargetPositionZPrev;
+      CVector3 m_cPositionCumulativeError;
+      CVector3 m_cVelocityCumulativeError;
+      CVector3 m_cTargetPositionPrev;
       /* sensor noise parameters */
       Real m_fGyroBias;
       Real m_fAccelBias;
@@ -121,11 +127,14 @@ namespace argos {
       const static Real Z_VEL_MAX;
       /* position controller parameters*/ 
       const static Real XY_POS_KP;
-      const static Real XY_VEL_KP;
+      const static Real ALT_POS_KP;
       /* PID controller constants */
-      const static Real ALTITUDE_KP;     
-      const static Real ALTITUDE_KI;
-      const static Real ALTITUDE_KD;
+      const static Real ALT_VEL_KP;     
+      const static Real ALT_VEL_KI;
+      const static Real ALT_VEL_KD;
+      const static Real XY_VEL_KP;
+      const static Real XY_VEL_KI;
+      const static Real XY_VEL_KD;
       const static Real ROLL_PITCH_KP; 
       const static Real ROLL_PITCH_KI; 
       const static Real ROLL_PITCH_KD;

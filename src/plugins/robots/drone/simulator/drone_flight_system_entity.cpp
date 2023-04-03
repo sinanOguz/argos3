@@ -21,6 +21,7 @@ namespace argos {
       m_cVelocityReading(CVector3::ZERO),
       m_cAngularVelocityReading(CVector3::ZERO),
       m_cTargetPosition(CVector3::ZERO),
+      m_cTargetVelocity(CVector3::ZERO),
       m_fTargetYawAngle(0.0) {}
 
 
@@ -36,6 +37,7 @@ namespace argos {
       m_cVelocityReading(CVector3::ZERO),
       m_cAngularVelocityReading(CVector3::ZERO),
       m_cTargetPosition(CVector3::ZERO),
+      m_cTargetVelocity(CVector3::ZERO),
       m_fTargetYawAngle(0.0) {}
 
    /****************************************/
@@ -47,6 +49,7 @@ namespace argos {
       m_cVelocityReading = CVector3::ZERO;
       m_cAngularVelocityReading = CVector3::ZERO;
       m_cTargetPosition = CVector3::ZERO;
+      m_cTargetVelocity = CVector3::ZERO;
       m_fTargetYawAngle = CRadians::ZERO;
    }
 

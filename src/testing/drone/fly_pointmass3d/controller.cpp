@@ -16,7 +16,8 @@ namespace argos {
    void CTestController::Init(TConfigurationNode& t_tree) {
       CCI_DroneFlightSystemActuator* pcActuator =
          GetActuator<CCI_DroneFlightSystemActuator>("drone_flight_system");
-      pcActuator->SetTargetPosition(CVector3(4.0, 0.0, 1.0));
+        //pcActuator->SetTargetPosition(CVector3(4.0, 0.0, 1.0));
+        pcActuator->SetTargetVelocity(CVector3(0.0, 0.0, 1.0));
    }
 
    /****************************************/

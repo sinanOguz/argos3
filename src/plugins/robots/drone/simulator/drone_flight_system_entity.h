@@ -79,6 +79,14 @@ namespace argos {
          return m_cTargetPosition;
       }
 
+      void SetTargetVelocity(const CVector3& c_velocity) {
+         m_cTargetVelocity = c_velocity;
+      }
+
+      const CVector3& GetTargetVelocity() const {
+         return m_cTargetVelocity;
+      }
+
       void SetTargetYawAngle(const CRadians f_yaw_angle) {
          m_fTargetYawAngle = f_yaw_angle;
       }
@@ -97,6 +105,7 @@ namespace argos {
       CVector3 m_cVelocityReading;
       CVector3 m_cAngularVelocityReading;
       CVector3 m_cTargetPosition;
+      CVector3 m_cTargetVelocity;
       CRadians m_fTargetYawAngle;
       
    };
